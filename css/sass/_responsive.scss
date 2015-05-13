@@ -1,0 +1,59 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Responsive layout
+///////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+@media screen and (max-width: 1024px) {
+    
+    .hidden-tablet {
+        display: none;
+    }
+    .img-responsive {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+
+    }    
+    .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+        &.hero-wrap {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    
+    .hidden-phone {
+        display: none;
+    }
+    
+    .pull-left, .pull-right {
+        float: none !important; 
+    }
+    .vcenter {
+        position: relative;
+        top: auto;
+
+-webkit-transform: none;
+   -moz-transform: none;
+    -ms-transform: none;
+     -o-transform: none;
+        transform: none;      
+    }
+    .button-wrap {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}

@@ -1,0 +1,89 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Colors
+///////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+// Color Palets
+
+$color-red: #fd4f57;
+$color-red-hover: #de454c;
+$color-red-active: #c11317;
+
+
+$color-blue-dark: #3155a4;
+$color-red-dark: #b3525a;
+$color-yellow: #ffda48;
+$color-brown: #926d5c; 
+$color-grey-dark: #4e4e56;
+$color-grey-light:#bfbdbd;
+
+$color-orange:#e6673e;
+$color-orange-hover:#d15b35;
+$color-orange-active:#ab200b;
+
+
+$color-purple:#684459;
+$color-yellow-dark:#f7a800; 
+
+$color-green-light:#9e9f60;
+$color-green-light-hover:#909158;
+$color-green-light-active:#51521e;
+
+$color-beige:	#beafa8;
+
+$color-green-dark: #487157;
+$color-blue-darkness:#3f5588;
+$color-yellow-lightness: #e4ed54;
+$color-orange-light:#ff993d;
+$color-grey:#93928b;
+
+$color-blue-light: #009dcd;
+$color-blue-light-hover: #008ab4;
+$color-blue-light-active: #004b7f;
+
+$color-pink-lightness:#fc4f57;
+$color-pink-lightness-hover:#de454c;
+$color-pink-lightness-active:#c11317;
+
+$color-pink-light: #d8a6bd;
+$color-pink: #d75177;
+
+$color-blue: #446ca9;
+$color-blue-hover: #37609f;
+$color-blue-active: #0c2463;
+
+$color-blue-lightness: #8acfdd;
+$color-purple-dark: #4a4d79;
+$color-grey-dark: #5d7079;
+
+
+$color-white: #ffffff;
+$color-white-hover: #f8f8f8;
+$color-white-active: #f0f0f0;
+
+$color-grey-lightness: #777777;
+$color-black: #000;
+
+
+/* Missing colors in styleguid.psd */
+$color-grey2: #3a4449;
+$color-grey2-hover:#363f43;
+$color-grey2-active:#2e3539;
+
+$color-brown2: #67605d;
+$color-brown2-hover:#585351;
+$color-brown2-active:#484442;
+
+
+
+.white-t {
+    color: $color-white;
+}
+.black-t {
+    color: $color-black;
+}
+.pink-t {
+    color: $color-pink-lightness;
+}
+
+
+

@@ -1,0 +1,192 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Buttons and Links
+///////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+.btn {
+    min-width: 180px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: $color-white;
+    font-family: 'Lato', sans-serif;
+    border: 0;
+    outline:none;
+    padding: 0 18px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1px;
+    
+    -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+     -o-border-radius: 2px;
+        border-radius: 2px;
+    &:hover, &:active, &:focus {
+        color: $color-white;        
+    }
+    @media screen and (max-width: 1024px) {
+        min-width: 129px;
+        font-size: 9px;
+        height: 30px;
+        line-height: 30px;
+    }
+    & + a {
+            @media screen and (max-width: 767px) {
+                margin-top: 25px;
+            }
+    }
+}
+
+.btn {
+    @extend .btn;
+    &.right-link-nav {
+        @extend .btn;
+        height: 34px;
+        line-height: 34px;
+        display: inline-block;
+        border:1px solid #ccc; 
+        padding: 0 17px;
+        font-family: 'Lato', sans-serif; 
+        font-size: 11px;
+        float: right;
+        min-width: 0;
+        margin-top: 10px;
+        background-color: transparent;
+        color: #959595;
+        min-width: 151px;        
+    }
+}
+
+.btn-blue {
+    @extend .btn;
+    background-color: $color-blue;
+    &:hover {
+        background-color: $color-blue-hover;
+    }
+    &:active {
+        background-color: $color-blue-active;
+    }
+}
+.btn-orange {
+    @extend .btn;
+    background-color: $color-orange;
+    &:hover {
+        background-color: $color-orange-hover;
+    }
+    &:active {
+        background-color: $color-orange-active;
+    }
+}
+.btn-white {
+    @extend .btn;
+    background-color: $color-white;
+    &:hover {
+        background-color: $color-white-hover;
+    }
+    &:active {
+        background-color: $color-white-active;
+    }
+}
+.btn-pink-lightness {
+    @extend .btn;
+    background-color: $color-pink-lightness;
+    &:hover {
+        background-color: $color-pink-lightness-hover;
+    }
+    &:active {
+        background-color: $color-pink-lightness-active;
+    }
+}
+.btn-blue-light {
+    @extend .btn;
+    background-color: $color-blue-light;
+    &:hover {
+        background-color: $color-blue-light-hover;
+    }
+    &:active {
+        background-color: $color-blue-light-active;
+    }
+}
+
+/* Links */
+
+.link {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline-block;
+    padding: 0 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    &:after {
+        content:">";
+        position: relative;
+        padding-left: 6px;  
+    }
+    &:hover {
+        color: $color-white-hover;
+    }
+    &:active {
+        color: $color-white-active;
+    }    
+    @media screen and (max-width: 1024px) {
+        font-size: 11px;
+    } 
+    @media screen and (max-width: 767px) {
+        display: block;
+    }    
+}
+.link-red {
+    @extend .link;
+    color: $color-red;
+    &:hover {
+        color: $color-red-hover;
+    }
+    &:active {
+        color: $color-red-active;
+    }
+}
+.link-green {
+    @extend .link;
+    color: $color-green-light;
+    &:hover {
+        color: $color-green-light-hover;
+    }
+    &:active {
+        color: $color-green-light-active;
+    }
+}
+.link-grey2 {
+    @extend .link;
+    color: $color-grey2; 
+    &:hover {
+        color: $color-grey2-hover;
+    }
+    &:active {
+        color: $color-grey2-active;
+    }    
+}
+.link-brown2 {
+    @extend .link;
+    color: $color-brown2;
+    &:hover {
+        color: $color-brown2-hover;
+    }
+    &:active {
+        color: $color-brown2-active;
+    }    
+}
+.link-pink-lightness {
+    color: $color-pink-lightness;
+}
+.link-blue-light {
+    @extend .link;
+    color: $color-blue-light;
+    &:hover {
+        color: $color-blue-light;
+    }
+    &:active {
+        color: $color-blue-light;
+    }    
+}

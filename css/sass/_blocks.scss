@@ -1,0 +1,34 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Blocks
+///////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+.orange-block {
+    background-color: $color-orange;
+    & button {
+        color: $color-orange;        
+        &:hover {
+            color: $color-orange-hover;    
+        }
+        &:active {
+            color: $color-orange-active;    
+        }
+        &:focus {
+            color: $color-orange-active;
+        }        
+    }
+}
+.green-block {
+    background-color: $color-green-light;
+    & button {
+        color: $color-green-light;
+        &:hover {
+            color: $color-green-light-hover;    
+        }
+        &:active {
+            color: $color-green-light-active;    
+        }
+        &:focus {
+            color: $color-green-light-active;
+        }
+    }
+}
